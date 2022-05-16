@@ -1,0 +1,10 @@
+body{
+    background-color: antiquewhite;
+    
+   
+}
+:root{
+    --branco: rgb(251, 248, 248);
+    --vermelho:rgb(206, 59, 59);
+    --backg: rgb(175, 137, 137);
+}

@@ -1,0 +1,58 @@
+@import url('/Css/global.css');
+
+.dc-apresentacao{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 2px solid var(--branco);
+        border-radius: 50%;
+        background-color: var(--vermelho);
+     
+}
+.dc-image{
+    width: 3rem;
+    margin: 0 1.25rem;
+    vertical-align: middle;
+    display: flex;
+    cursor:pointer;
+    
+}
+
+.dc-nav-menu{
+    padding: 1rem 0;
+    width: 100%;
+    text-align: end;
+    position: relative;
+}
+.dc-menu_item{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1.25rem;
+}
+.c-menu_item_icond{
+    margin: 0 1.25rem;
+    vertical-align: middle;
+}
+
+.dc-contatos_items{     
+    display: absolute;
+    align-items:end;
+    justify-content:center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid var(--branco);
+    border-radius: 50%;
+    background-color: var(--vermelho);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+.dc-contatos{
+    position:absolute;
+    align-items:end;
+    background-color: var(--backg);
+}
