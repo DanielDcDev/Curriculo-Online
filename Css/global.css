@@ -1,10 +1,8 @@
-body{
-    background-color: antiquewhite;
-    
-   
-}
 :root{
-    --branco: rgb(251, 248, 248);
-    --vermelho:rgb(206, 59, 59);
+    --links: #E8ECEF;
+    --headerInit:#71879c;
     --backg: rgb(175, 137, 137);
+    --background: #7C96AF;
+    --linksHover: #6e6a6a;
+    --bordas: #000000;
 }

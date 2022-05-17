@@ -1,58 +1,45 @@
 @import url('/Css/global.css');
+@import url('/Css/correções.css');
 
-.dc-apresentacao{
-        display: flex;
-        align-items:center;
-        justify-content:center;
-        width: 2.5rem;
-        height: 2.5rem;
-        border: 2px solid var(--branco);
-        border-radius: 50%;
-        background-color: var(--vermelho);
-     
-}
-.dc-image{
-    width: 3rem;
-    margin: 0 1.25rem;
-    vertical-align: middle;
-    display: flex;
-    cursor:pointer;
+body{
+    background-color: var(--background);
     
 }
-
-.dc-nav-menu{
-    padding: 1rem 0;
-    width: 100%;
-    text-align: end;
-    position: relative;
+.dc-icons_primals{
+    padding: 10px;
+    display: absolute;
+    justify-content: flex-start
+}
+.dc-image{
+    height: 50px;
+    width: 50px;
+}
+.dc-image_global{
+    height: 150px;
+    width: 150px;
+}
+.dc-icon{
+  height: 40px;
+}
+.dc-header{
+    background-color: var(--headerInit);
 }
 .dc-menu_item{
     display: inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
 }
-.c-menu_item_icond{
-    margin: 0 1.25rem;
-    vertical-align: middle;
-}
-
-.dc-contatos_items{     
-    display: absolute;
-    align-items:end;
+.dc-icon{
+    display: flex;
+    align-items:center;
     justify-content:center;
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 2px solid var(--branco);
+    border: 2px solid var(--bordas);
     border-radius: 50%;
-    background-color: var(--vermelho);
+    background-color: var(--linksHover);
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
     cursor:pointer;
-    
-}
-.dc-contatos{
-    position:absolute;
-    align-items:end;
-    background-color: var(--backg);
+    z-index: 1;
+    transition: transform 0.5 ease-in-out;
 }
