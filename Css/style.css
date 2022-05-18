@@ -3,12 +3,12 @@
 
 body{
     background-color: var(--background);
-    
+    padding: 10px;
+
 }
 .dc-icons_primals{
     padding: 10px;
-    display: absolute;
-    justify-content: flex-start
+    justify-content: flex-start;
 }
 .dc-image{
     height: 50px;
@@ -22,10 +22,19 @@ body{
   height: 40px;
 }
 .dc-header{
+    width: 102%;
     background-color: var(--headerInit);
+    margin-top: -2vh;
+    margin-left: -2vh;
+    margin-right: -2vh;
+    border: 2px solid var(--headerIBorder);
+    border-radius: 25px;
 }
-.dc-menu_item{
-    display: inline-block;
+.dc-menu-links{
+    padding-left: 70%;
+}
+.dc-menu_item{ 
+    display: inline;
     text-transform: uppercase;
     margin: 0 1.25rem;
 }
@@ -33,7 +42,7 @@ body{
     display: flex;
     align-items:center;
     justify-content:center;
-    border: 2px solid var(--bordas);
+    border: 1px solid var(--bordas);
     border-radius: 50%;
     background-color: var(--linksHover);
     text-align: center;
@@ -42,4 +51,28 @@ body{
     cursor:pointer;
     z-index: 1;
     transition: transform 0.5 ease-in-out;
+}
+.dc-main-Hello{
+    align-items: center;
+}
+.dc-contatos{
+    position: flex;
+    align-self: flex-end ;
+    width: 102%;
+    background-color: var(--headerInit);
+    margin-left: -2vh;
+    margin-right: -2vh;
+    margin-bottom: -5vh;
+    border: 2px solid var(--headerIBorder);
+    border-radius: 25px;
+}
+.dc-contatos_items{
+    display:inline;
+    
+}
+.dc-main-content{
+    background-image: url(/icons/icon-service-0.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    display: flex;
 }
